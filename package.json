@@ -1,0 +1,22 @@
+{
+    "name": "nimbus-theme-vscode",
+    "displayName": "Nimbus Theme",
+    "description": "The world-famous Nimbus theme. Winner of the Bytedude Best Dark Theme Award three years in a row.",
+    "version": "0.0.1",
+    "repository": "https://github.com/m-cat/nimbus-theme-vscode",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Nimbus Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Nimbus Theme-color-theme.json"
+            }
+        ]
+    }
+}
